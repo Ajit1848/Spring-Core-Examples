@@ -1,0 +1,16 @@
+package com.ba.beans;
+public class Radio {
+	Reciever reciever;
+	
+
+	public Reciever getReciever() {
+		return reciever;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Radio [reciever=" + reciever + "]";
+	}
+	
+}

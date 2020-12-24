@@ -1,0 +1,5 @@
+package com.util.beans;
+
+public class Team {
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.ci.bean.Robot"/>
+    <fullyQualifiedTypeName name="com.ci.bean.IEngine"/>
+    <fullyQualifiedTypeName name="com.ci.bean.Car"/>
+    <fullyQualifiedTypeName name="com.di.bean.Person"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="com.ci.bean.Ticket"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.utilcdi.bean.Team"/>
+    <fullyQualifiedTypeName name="com.utilcdi.bean.Players"/>
+    <fullyQualifiedTypeName name="com.di.bean.Student"/>
+    <fullyQualifiedTypeName name="com.ba.beans.Library"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.util.beans.Team"/>
+    <fullyQualifiedTypeName name="com.ba.beans.Reciever"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+    <fullyQualifiedTypeName name="java.awt.RadialGradientPaint"/>
+    <fullyQualifiedTypeName name="com.ba.beans.Radio"/>
+    <fullyQualifiedTypeName name="com.ba.beans.Tunner"/>
+</qualifiedTypeNameHistroy>

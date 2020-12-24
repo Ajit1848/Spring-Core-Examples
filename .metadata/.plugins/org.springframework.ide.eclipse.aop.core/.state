@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="collection-di"/>
+<aop-project name="car-di"/>
+<aop-project name="bean-alias"/>
+<aop-project name="robot"/>
+<aop-project name="person"/>
+<aop-project name="beanautowiring"/>
+<aop-project name="student"/>
+<aop-project name="utilcollection-di"/>
+<aop-project name="utilcoll-di"/>
+</aop-reference-model>

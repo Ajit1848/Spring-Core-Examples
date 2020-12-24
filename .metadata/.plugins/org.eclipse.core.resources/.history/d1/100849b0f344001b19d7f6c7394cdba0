@@ -1,0 +1,10 @@
+package com.util.beans;
+import java.util.List;
+public class Team {
+	Players players;
+	private int teamNo;
+	private String teamName;
+	private String country;
+	private List<players> list;
+	
+}
