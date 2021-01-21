@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="policyBazar" class="com.policybazar.beans.PolicyBazar">
+<property name="quoteEjb" ref="serviceLocator"></property>
+</bean>
+<bean id="objectServiceLocator" class="com.ifmi.helper.ObjectServiceLocator"/>
+<bean id="serviceLocator" factory-bean="objectServiceLocator" factory-method="getObject">
+<constructor-arg value="quoteEjb"/>
+</bean>
+</beans>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+	<bean id="swiggyDeliveryPartner"
+		class="com.ai.beans.SwiggyDeliveryPartnerImpl" />
+	<bean id="zomatoDeliveryPartner"
+		class="com.ai.beans.ZomatoDeliveryPartnerImpl" />
+	<bean id="restaurant" class="com.ai.beans.Restaurant">
+		<property name="deliveryPartnerName"
+			value="zomatoDeliveryPartner"></property>
+		<property name="address" value="Sakat,Jamkhed" />
+		<property name="orderNo" value="RA1002" />
+		<property name="item" ref="item"/>
+	</bean>
+	
+	
+	<util:list id="item" list-class="java.util.ArrayList"
+		value-type="java.lang.String">
+		<value>Chicken Biryani</value>
+		<value>Mutton Curry</value>
+		<value>Jira Rice</value>
+	</util:list>
+	
+</beans>

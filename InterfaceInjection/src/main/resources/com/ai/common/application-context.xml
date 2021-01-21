@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="yamahaEngine" class="com.ai.beans.YamahaEngineImpl"/>
+<bean id="suzukiEngine" class="com.ai.beans.SuzukiEngineImpl"/>
+
+<bean id="car" class="com.ai.beans.Car">
+<property name="engineName" value="yamahaEngine"></property>
+</bean>
+</beans>

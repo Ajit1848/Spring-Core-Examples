@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+		
+<bean id="calender" class="java.util.Calendar" factory-method="getInstance"/>
+<bean id="meeting" class="com.sfmi.beans.Meeting">
+<property name="topic" value="Daily Team Meeting"/>
+<property name="description" value="Daily Team Meeting for know team work."/>
+<property name="participants" ref="participantNames"/>
+<property name="time" ref="calender"/>
+</bean>
+
+<util:list id="participantNames" list-class="java.util.ArrayList" value-type="java.lang.String">
+<value>Ajit Pawar</value>
+<value>Anil Karpe</value>
+<value>Sandip Karhale</value>
+</util:list>
+</beans>
